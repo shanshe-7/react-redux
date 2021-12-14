@@ -1,6 +1,6 @@
 import React from "react";
 
-const StarWars = ({ data, isLoading, getFilms, name = "not name" }) => {
+const StarWars = ({ data, isLoading, getFilms, name = 0 }) => {
   console.log(name);
   return (
     <div>
